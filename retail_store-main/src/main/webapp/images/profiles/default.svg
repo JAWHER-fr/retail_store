@@ -1,0 +1,34 @@
+<svg width="200" height="200" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <clipPath id="circle-clip">
+            <circle cx="340" cy="340" r="300"/>
+        </clipPath>
+        <linearGradient id="bg-grad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#7c3aed"/>
+            <stop offset="100%" stop-color="#db2777"/>
+        </linearGradient>
+        <linearGradient id="body-grad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#a78bfa"/>
+            <stop offset="100%" stop-color="#7c3aed"/>
+        </linearGradient>
+    </defs>
+    <circle cx="340" cy="340" r="300" fill="url(#bg-grad)"/>
+    <ellipse cx="340" cy="560" rx="180" ry="130" fill="url(#body-grad)" clip-path="url(#circle-clip)"/>
+    <circle cx="340" cy="280" r="110" fill="#fde8d8"/>
+    <ellipse cx="340" cy="200" rx="112" ry="70" fill="#4b2d1a"/>
+    <ellipse cx="240" cy="260" rx="30" ry="60" fill="#4b2d1a"/>
+    <ellipse cx="440" cy="260" rx="30" ry="60" fill="#4b2d1a"/>
+    <ellipse cx="305" cy="275" rx="14" ry="16" fill="#fff"/>
+    <circle cx="308" cy="277" r="9" fill="#3b1f0a"/>
+    <circle cx="311" cy="274" r="3" fill="#fff"/>
+    <ellipse cx="375" cy="275" rx="14" ry="16" fill="#fff"/>
+    <circle cx="378" cy="277" r="9" fill="#3b1f0a"/>
+    <circle cx="381" cy="274" r="3" fill="#fff"/>
+    <path d="M292 256 Q305 248 320 254" stroke="#4b2d1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M362 256 Q375 248 390 254" stroke="#4b2d1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="340" cy="305" rx="8" ry="10" fill="#e8c4a8"/>
+    <path d="M310 330 Q340 355 370 330" stroke="#c0725a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <ellipse cx="285" cy="315" rx="22" ry="14" fill="#f9a8d4" opacity="0.5"/>
+    <ellipse cx="395" cy="315" rx="22" ry="14" fill="#f9a8d4" opacity="0.5"/>
+    <circle cx="340" cy="340" r="298" fill="none" stroke="#fff" stroke-width="6" opacity="0.3"/>
+</svg>
